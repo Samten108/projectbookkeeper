@@ -110,7 +110,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.category_dropdown.addItem(tup[1], tup[0])
 
 
-DB_FILE = 'C:/Users/Acer/PycharmProjects/new bookkeeper/New_DB.db'
+DB_FILE = 'database/sqlite_client.db'
 
 
 def main():
